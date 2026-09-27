@@ -1,0 +1,550 @@
+body {
+  margin: 0;
+  font-family: 'poppins';
+  background: #0d0f16;
+  color: white;
+}
+
+header{
+  top: 0;left: 0;right: 0;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding:5px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: cyan;
+}
+
+.nav-links a{
+  text-decoration: none;
+  padding: 0 1.2rem;
+  color: #aaa;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.tag {
+  color: cyan;
+  letter-spacing: 3px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: linear-gradient(to right, blue, cyan);
+  border: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.btn-outline {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid cyan;
+  background: transparent;
+  color: cyan;
+  border-radius: 8px;
+}
+
+.socials a i{
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.socials a i:hover{
+    color: #22d3ee;
+}
+
+/* CARD */
+.hero-card {
+  background-color: #11131c;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #374151;
+    margin-bottom: 125px;
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+    transition: 0.3s;
+}
+
+.hero-card:hover{
+  transform: translateY(-5px);
+}
+
+.tech span {
+  margin-right: 10px;
+  color: cyan;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.about-container{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.card {
+  background: #11131c;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card h3{
+  color: #22d3ee;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 50px;
+}
+
+.project-card {
+  background: #11131c;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.tags span {
+  background: #1d2841;
+  color: aqua;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.contact-section{
+    padding: 60px 40px;
+    color: white;
+}
+
+/* Header */
+.contact-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-header p{
+    color: #9ca3af;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Grid Layout */
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Left Side */
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-box h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.info-box p{
+    color: #9ca3af;
+    font-size: 18px;
+}
+
+/* Right Side */
+.follow-section{
+    background-color: #11131c;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #374151;
+}
+
+.follow-section h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Social Cards */
+.social-card{
+    background-color: #11131c;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #374151;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+    transition: 0.3s;
+}
+
+.social-card:hover{
+    transform: translateY(-5px);
+}
+
+.social-card h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.social-card p{
+    color: #9ca3af;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+/* Horizontal Lines */
+.footer hr{
+    border: 1px solid #1f2937;
+}
+
+/* Top Footer Layout */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 20px 80px;
+}
+
+/* Brand Section */
+.footer-brand h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:  cyan;
+}
+
+.footer-brand p{
+    color: #9ca3af;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* Links Section */
+.footer-links h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links ul li{
+    margin-bottom: 12px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: #9ca3af;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover{
+    color: white;
+}
+
+.footer-contact ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li{
+    margin-bottom: 15px;
+}
+
+/* Links */
+.footer-contact ul li a{
+    text-decoration: none;
+    color: #9ca3af;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Icons */
+.footer-contact ul li a i{
+    font-size: 24px;
+}
+
+/* Hover Effect */
+.footer-contact ul li a:hover{
+    color: #22d3ee;
+    transform: translateX(5px);
+}
+
+/* Bottom Footer */
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 20px;
+}
+
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+
+/* =========================================
+   CV MODAL
+========================================= */
+
+.cv-modal {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+
+    z-index: 9999;
+}
+
+
+.cv-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* CV Window */
+
+.cv-modal-content {
+    width: min(1000px, 95vw);
+    height: min(90vh, 900px);
+
+    background: #ffffff;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    transform: scale(0.9);
+
+    transition: 0.3s ease;
+}
+
+
+.cv-modal.active .cv-modal-content {
+    transform: scale(1);
+}
+
+
+/* Header */
+
+.cv-modal-header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+
+    background: #111;
+
+    color: white;
+}
+
+
+.cv-modal-header h2 {
+    margin: 0;
+
+    font-size: 20px;
+}
+
+
+/* Close Button */
+
+.cv-close {
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 32px;
+
+    cursor: pointer;
+
+    line-height: 1;
+}
+
+
+.cv-close:hover {
+    opacity: 0.7;
+}
+
+
+/* PDF */
+
+.cv-container {
+    flex: 1;
+
+    width: 100%;
+}
+
+
+.cv-container iframe {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+}
+
+
+/* =========================================
+   PROJECT LINKS
+========================================= */
+
+.project-link {
+    display: inline-block;
+
+    margin-top: 15px;
+    margin-right: 15px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+
+.project-link:hover {
+    transform: translateX(4px);
+}
+
+
+/* =========================================
+   SOCIAL LINKS
+========================================= */
+
+.social-card a {
+    text-decoration: none;
+}
+
+
+.social-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   VIEW WORK BUTTON
+========================================= */
+
+.btn-primary {
+    text-decoration: none;
+
+    display: inline-block;
+}
+
+/* Responsive Design */
+@media(max-width: 768px){
+
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header h2{
+        font-size: 32px;
+    }
+
+    .contact-header p{
+        font-size: 18px;
+    }
+
+    .follow-section h2{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 900px){
+
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px){
+
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-brand h1{
+        font-size: 32px;
+    }
+}
